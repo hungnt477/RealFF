@@ -1,0 +1,83 @@
+.fake-load-progress {
+    position: absolute;
+    -webkit-opacity: 1.0;
+	margin: 1px 1px 1px 1px;
+    width: 0%;
+    height: 7px;
+    background-color: #ffc107;
+	-webkit-animation-name: fake-loadbar-filling;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 9s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: both;
+}
+.garenalogo {
+	background-image: url('../resources/images/garena_logo.png');
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-webkit-animation-name: logo-appear;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-opacity: 0;
+	z-index: 11;
+}
+.garenalogo-overlay {
+	-webkit-animation-name: logo-screen-fade;
+	-webkit-animation-duration: 0.4s;
+	-webkit-animation-delay: 7.5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: both;
+	z-index: 11;
+}
+.loading-label {
+    position: fixed;
+	bottom: 60px;
+	right: 45px;
+	left: 45px;
+	font-size: 25px;
+	z-index: 5;
+	text-align: center;
+	-webkit-opacity: 0;
+	-webkit-animation-name: fade-forever;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 7.5s;
+	-webkit-animation-timing-function: cubic-bezier(0.37, 0.09, 0.64, 0.91);
+	-webkit-animation-iteration-count: infinite;
+}
+.login-scr {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/images/ob35-login.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-animation-name: appear;
+	-webkit-animation-duration: 0.1s;
+	-webkit-animation-delay: 16.4s;
+	-webkit-animation-fill-mode: both;
+	-webkit-opacity: 0;
+	z-index: 12;
+}
+.login-scr-small-trans-overlay {
+    -webkit-opacity: 0;
+    z-index: 50;
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 0.15s;
+    -webkit-animation-delay: 16.35s;
+}
+.loadingscr {
+    -webkit-animation-name: disappear;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-delay: 16.5s;
+    -webkit-animation-fill-mode: both;
+}

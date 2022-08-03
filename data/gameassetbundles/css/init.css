@@ -1,0 +1,23 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: white;
+    margin: 0;
+    background-image: url('../resources/images/FF_fakeloading_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+}
+* {
+    font-family: GFFInGame;
+}

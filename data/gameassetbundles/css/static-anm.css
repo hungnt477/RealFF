@@ -1,0 +1,46 @@
+@-webkit-keyframes fake-loadbar-filling {
+    0% {width: 0%;}
+    1% {width: 13%;}
+    30% {width: 13%;}
+    32% {width: 80%;}
+    49.9% {width: 80%;}
+    50% {width: 0%;}
+    70% {width: 0%;}
+    72% {width: 50%;}
+    88% {width: 50%;}
+    90% {width: 85%;}
+    95% {width: 90%;}
+    100% {width: 91%;}
+}
+@-webkit-keyframes logo-appear {
+	0% {-webkit-opacity: 0; visibility: hidden;}
+	15% {-webkit-opacity: 1; visibility: visible;}
+	85% {-webkit-opacity: 1; visibility: visible;}
+	100% {width: 340px; height: 340px; -webkit-opacity: 0; visibility: hidden;}
+}
+@-webkit-keyframes logo-screen-fade {
+	/* một mình ios có :(( */
+	0% {-webkit-opacity: 1; visibility: visible;}
+	100% {-webkit-opacity: 0; visibility: hidden;}
+}
+@-webkit-keyframes fade-forever {
+	0% {-webkit-opacity: 0;}
+	50% {-webkit-opacity: 1;}
+	100% {-webkit-opacity: 0;}
+}
+@-webkit-keyframes appear {
+	0% {-webkit-opacity: 0; visibility: hidden;}
+	0.1% {-webkit-opacity: 1; visibility: visible;}
+	100% {-webkit-opacity: 1; visibility: visible;}
+}
+@-webkit-keyframes disappear {
+    0% {-webkit-opacity: 1; visibility: visible;}
+	0.1% {-webkit-opacity: 0; visibility: hidden;}
+	100% {-webkit-opacity: 0; visibility: hidden;}
+}
+@-webkit-keyframes blink {
+    0% {-webkit-opacity :0; visibility: hidden;}
+    0.1% {-webkit-opacity: 1; visibility: visible;}
+    99.9% {-webkit-opacity: 1; visibility: visible;}
+    100% {-webkit-opacity: 0; visibility: hidden;}
+}

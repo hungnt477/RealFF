@@ -1,0 +1,93 @@
+.load-bar {
+	position: fixed;
+	height: 8px;
+	bottom: 30px;
+	right: 115px;
+	left: 115px;
+	z-index: 1;
+}
+.load-bg {
+    position: absolute;
+    background-color: #626262;
+    -webkit-opacity: 0.63;
+    height: 9px;
+    right: 0;
+    left: 0;
+}
+.fflogo {
+    position: fixed;
+    z-index: 10;
+    right: 23px;
+    background-image: url('../resources/images/ff-new-logo.png');
+    background-image: url('../resources/images/ffnewlogo-vector.svg');
+    width: 300px;
+    top: 15px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.3));
+}
+.overlay {
+    position: absolute;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	position: absolute;
+	z-index: 99;
+}
+.button {
+    position: fixed;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    bottom: 115px;
+    background-color: #fafafa;
+    height: 45px;
+    width: 225px;
+    font-family: 'GFFInGame';
+    font-size: 20px;
+    border: none;
+    -webkit-box-shadow: 0 0 4px 0px #fff;
+    /* padding-right: 61px;
+    text-align: right; */
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+}
+.button:active {
+    background-color: #c6b161;
+    -webkit-box-shadow: 0 0 4px 0px #c6b161;
+    -webkit-transition-duration: 0.4s;
+}
+.ver-container {
+    background: #00000080;
+    position: fixed;
+    height: 26px;
+    top: 15px;
+    left: 15px;
+}
+#version {
+    width: max-content;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+}
+.outlink-container {
+    position: fixed;
+    right: 22px;
+    bottom: 9px;
+    cursor: default;
+}
+.outlink {
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline 2px;
+    color: #ffba00;
+    display: inline-block;
+}
+.go-triangle {
+    color: #ffba00;
+    display: inline-block;
+    letter-spacing: -5px;
+    font-size: 15px;
+    margin-left: -1px;
+    transform: scale(0.55,0.83);
+}
