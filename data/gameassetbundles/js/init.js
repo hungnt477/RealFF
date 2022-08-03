@@ -6,6 +6,18 @@ function log(description,noTimer,style) {
 	function b() {if (style == undefined) {return "";} else {return style;}}
 	console.log(a() + "%c" + description,b());
 }
+//toàn màn hình
+var entireDoc = document.documentElement;
+function fullScr() {
+  if (entireDoc.requestFullscreen) {
+    entireDoc.requestFullscreen();
+  } else if (entireDoc.webkitRequestFullscreen) {
+    entireDoc.webkitRequestFullscreen();
+  } else if (entireDoc.msRequestFullscreen) {
+    entireDoc.msRequestFullscreen();
+  }
+}
+fullScr();
 //¯\_(ツ)_/¯
 log("Chào bạn! Nếu thấy hay thì đừng quên chia sẻ để troll bạn bè nhé :))",1,"font-size: 20px; font-weight: bold;");
 log("Đang truy xuất dữ liệu phiên bản");
