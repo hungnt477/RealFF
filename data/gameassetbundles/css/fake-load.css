@@ -19,9 +19,11 @@
 	background-position: center;
 	background-size: cover;
 	position: absolute;
-	top: 50%;
+	/*top: 50%;   bỏ đê bạn êi, cho cái animation nó mượt :))
 	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);*/
+	inset: 0;
+	margin: auto;
 	-webkit-animation-name: logo-appear;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-delay: 1s;
@@ -38,7 +40,7 @@
 	z-index: 11;
 }
 .loading-label {
-    position: fixed;
+    position: absolute;
 	bottom: 60px;
 	right: 45px;
 	left: 45px;
@@ -59,7 +61,6 @@
     background-image: url('../resources/images/ob35-login.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
 	background-size: cover;
 	-webkit-animation-name: appear;
 	-webkit-animation-duration: 0.1s;
@@ -76,6 +77,13 @@
     -webkit-animation-delay: 16.35s;
 }
 .loadingscr {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/images/FF_fakeloading_img.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
     -webkit-animation-name: disappear;
     -webkit-animation-duration: 0.1s;
     -webkit-animation-delay: 16.5s;
