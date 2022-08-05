@@ -16,7 +16,8 @@
 	0% {-webkit-opacity: 0; visibility: hidden;}
 	15% {-webkit-opacity: 1; visibility: visible;}
 	85% {-webkit-opacity: 1; visibility: visible;}
-	100% {width: 340px; height: 340px; -webkit-opacity: 0; visibility: hidden;}
+	/*100% {width: 340px; height: 340px; -webkit-opacity: 0; visibility: hidden;}*/
+	100% {-webkit-transform: scale(1.15); -webkit-opacity: 0; visibility: hidden;}
 }
 @-webkit-keyframes logo-screen-fade {
 	/* một mình ios có :(( */
