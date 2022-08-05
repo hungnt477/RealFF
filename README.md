@@ -6,4 +6,8 @@ This project include iNoBouce to prevent iOS, iPadOS from overscroll since its p
 
 This project contain some resources that belong to Garena - Sea Ltd include font (GFF), sound effect, music and images.
 
+https://nthff0407.github.io/RealFF/
+
+or
+
 https://angrier-groove.000webhostapp.com/archive/realff
