@@ -1,5 +1,5 @@
 .load-bar {
-	position: fixed;
+	position: absolute;
 	height: 8px;
 	bottom: 30px;
 	right: 115px;
@@ -15,7 +15,7 @@
     left: 0;
 }
 .fflogo {
-    position: fixed;
+    position: absolute;
     z-index: 10;
     right: 23px;
     background-image: url('../resources/images/ff-new-logo.png');
@@ -37,7 +37,7 @@
 	z-index: 99;
 }
 .button {
-    position: fixed;
+    position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
     bottom: 115px;
@@ -60,7 +60,7 @@
 }
 .ver-container {
     background: #00000080;
-    position: fixed;
+    position: absolute;
     height: 26px;
     top: 15px;
     left: 15px;
@@ -71,7 +71,7 @@
     padding: 0 15px 0 15px;
 }
 .outlink-container {
-    position: fixed;
+    position: absolute;
     right: 22px;
     bottom: 9px;
     cursor: default;
@@ -82,6 +82,7 @@
     text-decoration: underline 2px;
     color: #ffba00;
     display: inline-block;
+    text-underline-offset: 2px;
 }
 .go-triangle {
     color: #ffba00;
