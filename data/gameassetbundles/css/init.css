@@ -10,11 +10,11 @@ body {
     user-select: none;
     color: white;
     margin: 0;
-    background-image: url('../resources/images/FF_fakeloading_img.png');
+    /*background-image: url('../resources/images/FF_fakeloading_img.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment: absolute;
+    background-size: cover;*/
     z-index: 0;
     overflow: hidden;
 }
